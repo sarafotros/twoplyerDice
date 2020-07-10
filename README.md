@@ -1,9 +1,7 @@
-# dice-game
-# Brief
-There are two parts to this project:
- single player
+# Multiplayer dice
+
  multiplayer players
-# Single player dice game:
+# brief:
 • Roll the dice to begin the game.
 • The dice appears on the first roll.
 • Each time the dice is rolled the score adds up.
