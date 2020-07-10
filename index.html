@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dice-Game</title>
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <h2>Dice Game</h2>
+        <p>Roll the dice to begin the game</p>
+        <p>Select:</p>
+        <button id="btnStart">Start</button>
+        <!-- <button id="twoPlayerBtn">2 players</button> -->
+      </header>
+      <div class="main">
+        <h3 id="sigOrMulty"></h3>
+        <h4 class="status"></h4>
+        <div class="scoreDiv">
+          <p id="scoreOne">Player 1 Score:</p>
+          <p id="scoreTwo">Player 2 Score:</p>
+        </div>
+
+        <div class="img">
+          <img src="assets/images/dice0.png" alt="dice" id="imgOne" />
+          <img src="assets/images/dice0.png" alt="dice" id="imgTwo" />
+        </div>
+        <button disabled="true" id="rollBtn">ROLL</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
